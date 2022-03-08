@@ -33,6 +33,7 @@ main {
 p {
   padding: 1em 3em;
   font-size: 1em;
+  margin: 0 auto;
 }
 
 .responsive-padding {
@@ -40,7 +41,7 @@ p {
 }
 
 .shadow {
-  box-shadow: 0 0 10px 0px #000;
+  box-shadow: 0 0 10px 0px #bbb;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -59,5 +60,9 @@ p {
 @media only screen and (min-width: 1250px) {
   .responsive-padding {
     margin: 0 15em;
+  }
+
+  p {
+    max-width: 70ch;
   }
 }

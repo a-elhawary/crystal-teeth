@@ -2,7 +2,7 @@
   width: 100%;
   position: fixed;
   background-color: #fff;
-  box-shadow: 0 0 10px 1px #000;
+  box-shadow: 0 0 10px 1px #bbb;
   top: 0;
 }
 .mobile-bar {
@@ -10,7 +10,7 @@
 }
 
 .topbar-image {
-  height: 10vh;
+  height: 7vh;
   border-right: solid 2px #eee;
 }
 
@@ -61,6 +61,10 @@
     visibility: visible;
     background-color: transparent;
     padding-right: 2em;
+  }
+
+  .topbar-image {
+    height: 10vh;
   }
 
   .topbar-link {
